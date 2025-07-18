@@ -1,0 +1,78 @@
+@media screen and (width>=0) and (width<=445px) {
+    .typing-field {
+        border-radius: 0;
+        height: 800px;
+        width: 350px;
+        margin-top: 1em;
+        padding: 1em;
+    }
+
+    .timer-section,
+    .analytics-section {
+        font-size: 0.6em;
+    }
+
+    .text-section,
+    .text-input-section {
+        height: 400px;
+        border-radius: 0;
+        font-size: 1.1em;
+        padding: 0.8em;
+        overflow-y: scroll;
+    }
+
+    .reset-button{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (width<=769px) and (width>=440px) {
+    .typing-field {
+        border-radius: 10px;
+        height: 840px;
+        width: 650px;
+        padding: 1.5em;
+        margin-top: 1em;
+    }
+
+    .timer-section,
+    .analytics-section {
+        font-size: 0.9em;
+    }
+
+    .text-section,
+    .text-input-section {
+        font-size: 1em;
+        overflow-y: scroll;
+        height: 700px;
+    }
+
+    .reset-button{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (width<=1024px) and (width>=769px) {
+    .typing-field{
+        width: 650px;
+        height: 830px;
+        padding: 1.5em;
+        margin-top: 1.2em;
+    }
+    
+    .timer-section,
+    .analytics-section {
+        font-size: 0.9em;
+    }
+
+    .text-section,
+    .text-input-section {
+        height: 800px;
+        font-size: 1em;
+        overflow-y: scroll;
+    }
+
+    .reset-button{
+        font-size: 0.9em;
+    }
+}
