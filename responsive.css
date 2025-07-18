@@ -21,6 +21,11 @@
         overflow-y: scroll;
     }
 
+    .text-section::-webkit-scrollbar,
+    .text-input-section::-webkit-scrollbar{
+        appearance: none;
+    }
+
     .reset-button{
         font-size: 0.7em;
     }
@@ -47,6 +52,11 @@
         height: 700px;
     }
 
+    .text-section::-webkit-scrollbar,
+    .text-input-section::-webkit-scrollbar{
+        appearance: none;
+    }
+
     .reset-button{
         font-size: 0.9em;
     }
@@ -70,6 +80,11 @@
         height: 800px;
         font-size: 1em;
         overflow-y: scroll;
+    }
+
+    .text-section::-webkit-scrollbar,
+    .text-input-section::-webkit-scrollbar{
+        appearance: none;
     }
 
     .reset-button{
