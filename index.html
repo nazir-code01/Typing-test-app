@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="typing-field">
+            <section class="timer-section">
+                <span class="select-time">Select Time :</span>
+                <select name="timer" id="select-time" required>
+                    <option value="1">1 Minute</option>
+                    <option value="3">3 Minute</option>
+                </select>
+                <button class="start-button">Start</button>
+            </section>
+            <section class="text-section">
+                <section class="text-container">
+                    
+                </section>
+            </section>
+            <section class="text-input-section">
+                <textarea class="text-input" spellcheck="false"></textarea>
+            </section>
+            <section class="analytics-section">
+                <section class="accuracy-section">
+                    <span>Accuracy : </span>
+                    <span class="accuracy">0</span>
+                </section>
+                <section class="wpm-section">
+                    <span>WPM : </span>
+                    <span class="wpm">0</span>
+                </section>
+            </section>
+            <section class="reset-section">
+                <button class="reset-button">Reset</button>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/f1050aff1a.js" crossorigin="anonymous" async></script>
+</body>
+
+</html>
